@@ -1,0 +1,6 @@
+site_name: Yehoshua Paul
+theme: name: material
+
+nav:
+  - Home: index.md
+  - My Work: Portfolio.md
