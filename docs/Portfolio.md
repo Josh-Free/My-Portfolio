@@ -29,9 +29,9 @@ A set of procedures for moving the Kubernetes etcd database onto its own disk, w
 
 Sample markdown files from this set:
 
-- [Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Move%20etcd%20-%20In-place%20AWS%20Instance.md) — Move etcd - In-place AWS Instance
-- [Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Move%20etcd%20-%20GCP%20High%20Availability.md) — Move etcd - GCP High Availability
-- [Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Mount%20etcd%20-%20New%20TufinOS%20or%20Open%20Server.md) — Mount etcd - New TufinOS or Open Server
+- [Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Move%20etcd%20-%20In-place%20AWS%20Instance.md) — Move etcd: In-place AWS Instance
+- [Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Move%20etcd%20-%20GCP%20High%20Availability.md) — Move etcd: GCP High Availability
+- [Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Mount%20etcd%20-%20New%20TufinOS%20or%20Open%20Server.md) — Mount etcd: New TufinOS or Open Server
 
 ## Upgrade TufinOS
 

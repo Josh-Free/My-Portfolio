@@ -1,5 +1,6 @@
 site_name: Yehoshua Paul
-theme: name: material
+theme:
+  name: material
 
 nav:
   - Home: index.md

@@ -1,6 +1,7 @@
 site_name: Yehoshua Paul
 theme:
   name: material
+  variant: classic
 
 nav:
   - Home: index.md
