@@ -443,18 +443,41 @@
 
 <h1 id="portfolio">Portfolio</h1>
 <h2 id="t-900t-1300-quick-start-guide">T-900/T-1300 Quick Start Guide</h2>
-<p>Lorem Ipsum</p>
-<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/qsg_t900-t1300.htm">T-900/T-1300 Quick Start Guide</a></p>
+<p>A quick start guide for setting up Tufin T-900 and T-1300 hardware appliances, from unboxing and rack installation through network configuration, OS updates, and TOS installation.</p>
+<ul>
+<li><strong>Purpose:</strong> Takes a new customer from a boxed appliance to a running TOS installation with remote access, network, and link redundancy configured correctly.</li>
+<li><strong>Technologies covered:</strong> Tufin T-Series appliances, TufinOS, Tufin Orchestration Suite (TOS) Aurora, Dell iDRAC, NIC bonding (nmtui), NTP and DNS configuration, SSH, tmux</li>
+<li><strong>Document type:</strong> Quick start guide (hardware setup procedure)</li>
+</ul>
+<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/qsg_t900-t1300.htm">View live page</a></p>
 <h2 id="mount-the-etcd-database-to-a-separate-disk">Mount the ETCD Database to a Separate Disk</h2>
-<p>Series of KC topics on how to mount the etcd database on a separate disk for a wide variety of deployment scenarios</p>
-<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/MiniTOC_etcd.htm">Mount ETCD to a Separate Disk</a></p>
+<p>A set of procedures for moving the Kubernetes etcd database onto its own disk, with a separate topic for each deployment environment and scenario.</p>
+<ul>
+<li><strong>Purpose:</strong> Gives TOS the dedicated disk resources it needs for performance, stability, and low latency. The procedure is required for all clusters.</li>
+<li><strong>Technologies covered:</strong> Kubernetes etcd, TufinOS and open servers, AWS, Azure, GCP (in-place, new instance, and high availability scenarios)</li>
+<li><strong>Document type:</strong> Procedure set (landing page linking to environment-specific task topics)</li>
+</ul>
+<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/MiniTOC_etcd.htm">View live page</a></p>
 <h2 id="upgrade-tufinos">Upgrade TufinOS</h2>
-<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/MiniTOC_upgradeTufinOS.htm">Upgrade TufinOS Guide</a></p>
+<!-- Description fields pending: the page content did not load when fetched. -->
+
+<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/MiniTOC_upgradeTufinOS.htm">View live page</a></p>
 <h2 id="remote-collectors">Remote Collectors</h2>
-<p>Lorem Ipsum</p>
-<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/RemoteCollectors.htm">Remote Collectors</a></p>
+<p>An overview of TOS remote collector clusters, with procedures to connect, list, and disconnect them from a central cluster.</p>
+<ul>
+<li><strong>Purpose:</strong> Helps administrators decide when a remote collector is needed and set up distributed data collection correctly.</li>
+<li><strong>Technologies covered:</strong> TOS, SecureTrack, Kubernetes clusters, TOS CLI (<code>tos cluster</code> commands), AWS, Azure, GCP, SSL certificates, JMS and HTTPS connectivity</li>
+<li><strong>Document type:</strong> Concept and task topic (overview, procedures, and CLI parameters)</li>
+</ul>
+<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/RemoteCollectors.htm">View live page</a></p>
 <h2 id="high-availability-architecture">High Availability Architecture</h2>
-<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/GettingStarted/HAArchitecture.htm">HA Architecture</a></p>
+<p>An explanation of how TOS high availability works, covering the three-data-node design, leader election, site requirements, and failover behavior.</p>
+<ul>
+<li><strong>Purpose:</strong> Helps readers understand the architecture and its constraints before enabling high availability, and what to expect when a node fails.</li>
+<li><strong>Technologies covered:</strong> TOS, Kubernetes cluster nodes, quorum-based leader election, GCP availability zones, remote collectors</li>
+<li><strong>Document type:</strong> Concept (architecture overview)</li>
+</ul>
+<p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/GettingStarted/HAArchitecture.htm">View live page</a></p>
 
 
 
