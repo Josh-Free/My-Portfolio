@@ -281,6 +281,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#disclaimer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disclaimer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#t-900t-1300-quick-start-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -370,6 +381,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#disclaimer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disclaimer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#t-900t-1300-quick-start-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -442,40 +464,64 @@
 
 
 <h1 id="portfolio">Portfolio</h1>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>This is my personal portfolio. It is not affiliated with any of my current or previous employers. Tufin materials were taken from the publicly available Tufin Knowledge Center. All other third-party content is used with the owners’ permission.</p>
 <h2 id="t-900t-1300-quick-start-guide">T-900/T-1300 Quick Start Guide</h2>
 <p>A quick start guide for setting up Tufin T-900 and T-1300 hardware appliances, from unboxing and rack installation through network configuration, OS updates, and TOS installation.</p>
 <ul>
 <li><strong>Purpose:</strong> Takes a new customer from a boxed appliance to a running TOS installation with remote access, network, and link redundancy configured correctly.</li>
 <li><strong>Technologies covered:</strong> Tufin T-Series appliances, TufinOS, Tufin Orchestration Suite (TOS) Aurora, Dell iDRAC, NIC bonding (nmtui), NTP and DNS configuration, SSH, tmux</li>
 <li><strong>Document type:</strong> Quick start guide (hardware setup procedure)</li>
+<li><strong>Created on:</strong> October 20, 2026</li>
 </ul>
 <p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/qsg_t900-t1300.htm">View live page</a></p>
+<p><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/T-900-T-1300%20Quick%20Start%20Guide.md">Download markdown file</a></p>
 <h2 id="mount-the-etcd-database-to-a-separate-disk">Mount the ETCD Database to a Separate Disk</h2>
 <p>A set of procedures for moving the Kubernetes etcd database onto its own disk, with a separate topic for each deployment environment and scenario.</p>
 <ul>
 <li><strong>Purpose:</strong> Gives TOS the dedicated disk resources it needs for performance, stability, and low latency. The procedure is required for all clusters.</li>
 <li><strong>Technologies covered:</strong> Kubernetes etcd, TufinOS and open servers, AWS, Azure, GCP (in-place, new instance, and high availability scenarios)</li>
 <li><strong>Document type:</strong> Procedure set (landing page linking to environment-specific task topics)</li>
+<li><strong>Created on:</strong> October 20, 2026</li>
 </ul>
 <p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/MiniTOC_etcd.htm">View live page</a></p>
+<p>Sample markdown files from this set:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Move%20etcd%20-%20In-place%20AWS%20Instance.md">Download markdown file</a> — Move etcd - In-place AWS Instance</li>
+<li><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Move%20etcd%20-%20GCP%20High%20Availability.md">Download markdown file</a> — Move etcd - GCP High Availability</li>
+<li><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Mount%20etcd%20-%20New%20TufinOS%20or%20Open%20Server.md">Download markdown file</a> — Mount etcd - New TufinOS or Open Server</li>
+</ul>
 <h2 id="upgrade-tufinos">Upgrade TufinOS</h2>
-<!-- Description fields pending: the page content did not load when fetched. -->
-
+<p>A set of procedures for upgrading and updating the TufinOS operating system on TOS nodes, with separate topics for upgrading from TufinOS 3 to 4 (in-place and HA deployments on VMware ESXi) and for updating within TufinOS 4.</p>
+<ul>
+<li><strong>Purpose:</strong> Gives experienced administrators an ordered, verifiable path to a supported OS version, with prerequisites, backups, node-by-node steps, and cluster health checks, while keeping the planned downtime and the central-before-remote-collector upgrade order in view.</li>
+<li><strong>Technologies covered:</strong> TufinOS, TOS Aurora, Kubernetes (k3s), VMware ESXi/vSphere, TOS CLI, NTP (chrony), NetworkManager, high availability clusters, remote collectors</li>
+<li><strong>Document type:</strong> Procedure set (landing page linking to upgrade procedures)</li>
+<li><strong>Created on:</strong> October 20, 2026</li>
+</ul>
 <p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/MiniTOC_upgradeTufinOS.htm">View live page</a></p>
+<p>Sample markdown files from this set:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Upgrade%20TufinOS%203%20to%204%20-%20HA%2C%20VMWare%20ESXi.md">Download markdown file</a> — Upgrade TufinOS 3 to 4: HA, VMWare ESXi</li>
+<li><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Upgrade%20TufinOS%203%20to%204%20-%20In-place%2C%20VMWare%20ESXi%2C%20Central-Remote%20Collector%20Cluster%2C%20TOS%20Reinstall.md">Download markdown file</a> — Upgrade TufinOS 3 to 4: In-place, VMWare ESXi, Central/Remote Collector Cluster, TOS Reinstall</li>
+</ul>
 <h2 id="remote-collectors">Remote Collectors</h2>
 <p>An overview of TOS remote collector clusters, with procedures to connect, list, and disconnect them from a central cluster.</p>
 <ul>
 <li><strong>Purpose:</strong> Helps administrators decide when a remote collector is needed and set up distributed data collection correctly.</li>
 <li><strong>Technologies covered:</strong> TOS, SecureTrack, Kubernetes clusters, TOS CLI (<code>tos cluster</code> commands), AWS, Azure, GCP, SSL certificates, JMS and HTTPS connectivity</li>
 <li><strong>Document type:</strong> Concept and task topic (overview, procedures, and CLI parameters)</li>
+<li><strong>Created on:</strong> October 20, 2026</li>
 </ul>
 <p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/RemoteCollectors.htm">View live page</a></p>
+<p><a href="https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/Remote%20Collectors.md">Download markdown file</a></p>
 <h2 id="high-availability-architecture">High Availability Architecture</h2>
 <p>An explanation of how TOS high availability works, covering the three-data-node design, leader election, site requirements, and failover behavior.</p>
 <ul>
 <li><strong>Purpose:</strong> Helps readers understand the architecture and its constraints before enabling high availability, and what to expect when a node fails.</li>
 <li><strong>Technologies covered:</strong> TOS, Kubernetes cluster nodes, quorum-based leader election, GCP availability zones, remote collectors</li>
 <li><strong>Document type:</strong> Concept (architecture overview)</li>
+<li><strong>Created on:</strong> October 20, 2026</li>
 </ul>
 <p><a href="https://forum.tufin.com/support/kc/latest/Content/ST2/GettingStarted/HAArchitecture.htm">View live page</a></p>
 
