@@ -72,3 +72,5 @@ An explanation of how TOS high availability works, covering the three-data-node 
 - **Created on:** October 20, 2026
 
 [View live page](https://forum.tufin.com/support/kc/latest/Content/ST2/GettingStarted/HAArchitecture.htm)
+
+[Download markdown file](https://raw.githubusercontent.com/Josh-Free/My-Portfolio/main/markdown/High%20Availability%20Architecture.md)
