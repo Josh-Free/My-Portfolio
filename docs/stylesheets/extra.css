@@ -8,9 +8,9 @@
 
 
 .md-header {
-  background-color: #000000;
+  background-color: #A9C6DB;
   height: 100px;
-  font-color: #FFB000;
+  color: #4A3428;
 }
 
 .md-header--shadow {
@@ -22,19 +22,25 @@
 }
 
 .md-footer {
-  background-color: #FFB000;
+  background-color: #4A3428;
 }
 
 .md-footer__inner {
-  color: #000000;
+  color: #F3EDE2;
+}
+
+.md-footer__link,
+.md-footer__link:hover,
+.md-footer__link:focus {
+  color: #F3EDE2;
 }
 
 .md-typeset p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .md-typeset h2 {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 
@@ -42,7 +48,7 @@
 .md-nav__link,
 .md-nav__link--passed,
 .md-nav__link--passed code {
-  color: #7F5300;
+  color: #4A3428;
   font-weight: 700;
 }
 
@@ -50,7 +56,7 @@
 .md-nav--primary .md-nav__item--active>.md-nav__link,
 .md-nav__item .md-nav__link--active,
 .md-nav__item .md-nav__link--active code {
-  color: #A9A696;
+  color: #4E7591;
   font-weight: 700;
 }
 
@@ -61,30 +67,31 @@
 .md-nav__link[href]:focus,
 .md-nav--primary .md-nav__item--active>.md-nav__link:hover,
 .md-nav--primary .md-nav__item--active>.md-nav__link:focus {
-  color: #FFB000;
+  color: #6F8360;
 }
 
 
 .md-header__title {
   font-weight: 400;
   font-size: 1.5rem;
-  color: #FFB000;
+  color: #4A3428;
 }
 
 .md-source {
-  color: #FFFFFF;
+  color: #4A3428;
 }
 
 .md-search__button,
 .md-search__button::after {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #FFFFFF;
+  background-color: rgba(74, 52, 40, 0.08);
+  color: #4A3428;
 }
 
-h1#portfolio {
-  font-weight: 800;
+h1#portfolio,
+h1#about-me {
+  font-weight: 600;
   font-size: 2rem;
-  color: #A9A696;
+  color: #6F8360;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
@@ -93,19 +100,19 @@ h1#portfolio {
 }
 
 .md-main {
-  background-color: #FCFBF8;
+  background-color: #F3EDE2;
 }
 
 .md-nav--primary .md-nav__title,
 .md-nav--secondary .md-nav__title {
-  background: #F9F7F1;
-  box-shadow: 0 0 .4rem .4rem #FCFBF8;
+  background: #F3EDE2;
+  box-shadow: 0 0 .4rem .4rem #F3EDE2;
 }
 
 .md-typeset a {
-  color: #7F5300;
+  color: #4E7591;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .md-social__link {
@@ -120,41 +127,41 @@ h1#portfolio {
 }
 
 .md-typeset .disclaimer>.admonition-title:before, .md-typeset .disclaimer>summary:before {
-  background-color: #FFB000;
+  background-color: #9DAE8C;
 }
 
 .md-typeset .admonition.disclaimer, .md-typeset details.disclaimer {
   max-width: 800px; 
-  border: 2px solid #E0D8C0;
-  background-color: #F9F7F1;
-  color: #000000;
+  border: 2px solid #E6D9C3;
+  background-color: #F8F4EC;
+  color: #4A3428;
   border-radius: 4px;
   font-size: small;
 }
 
 .admonition.title {
-  color: #000000;
-  background-color: #E0D8C0;
+  color: #4A3428;
+  background-color: #E6D9C3;
   
 }
 
 
 .md-typeset .admonition-title, .md-typeset summary  {
-  color: #000000;
-  background-color: #E0D8C0;
+  color: #4A3428;
+  background-color: #E6D9C3;
   
 }
 
 a {
-  color: #7F5300;
+  color: #4E7591;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 
 .cards {
   background-color: transparent;
-  border: 2px solid #E0D8C0;
+  border: 2px solid #E6D9C3;
   border-radius: 10px;
   padding: 2rem;
   margin-bottom: 2rem;

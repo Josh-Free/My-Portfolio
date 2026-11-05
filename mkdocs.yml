@@ -10,8 +10,8 @@ theme:
     admonition: 
       note: lucide/gavel
   font:
-    text: "News Cycle"
-    code: Inconsolata
+    text: Roboto
+    code: Roboto
   palette:            
     scheme: default
   features:
