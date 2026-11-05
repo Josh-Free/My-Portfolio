@@ -88,7 +88,8 @@
 }
 
 h1#portfolio,
-h1#about-me {
+h1#about-me,
+h1#my-talks {
   font-weight: 600;
   font-size: 2rem;
   color: #6F8360;
@@ -170,4 +171,96 @@ a {
 
 .md-typeset table:not([class])  {
   font-size: 15px;
+}
+
+/* My talks: slide carousel */
+.talk-carousel {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 2px solid #E6D9C3;
+  border-radius: 10px;
+  background-color: #F8F4EC;
+  overflow: hidden;
+  outline: none;
+}
+
+.talk-carousel:focus-visible {
+  border-color: #4E7591;
+}
+
+.talk-carousel__track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.talk-carousel__track::-webkit-scrollbar {
+  display: none;
+}
+
+.md-typeset .talk-carousel__slide {
+  flex: 0 0 100%;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.md-typeset .talk-carousel__slide img,
+.md-typeset .talk-carousel__slide a {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.talk-carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.75rem;
+  height: 2.75rem;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(74, 52, 40, 0.75);
+  color: #F3EDE2;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  cursor: pointer;
+}
+
+.talk-carousel__btn:hover,
+.talk-carousel__btn:focus-visible {
+  background-color: #4E7591;
+}
+
+.talk-carousel__btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.talk-carousel__btn--prev {
+  left: 0.75rem;
+}
+
+.talk-carousel__btn--next {
+  right: 0.75rem;
+}
+
+.talk-carousel__counter {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  background-color: rgba(74, 52, 40, 0.75);
+  color: #F3EDE2;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .talk-carousel__btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
 }

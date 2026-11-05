@@ -56,6 +56,8 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/talks.js
 
 markdown_extensions:
   - md_in_html
@@ -77,3 +79,4 @@ markdown_extensions:
 nav:
   - Home: index.md
   - My Work: Portfolio.md
+  - My talks: My-talks.md
