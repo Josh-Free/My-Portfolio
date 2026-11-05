@@ -112,6 +112,8 @@ We've all used RTFM before. What happens though when the users actually follow t
 
 **Delivered at:** MEGAComm 2026 (virtual)
 
+[Download Presentation](assets/talks/rtfm-2/rtfm-2-read-the-feedback-make-it-better.pdf)
+
 </div>
 <div class="cards" markdown>
 
@@ -168,6 +170,8 @@ with your bugs. This presentation will teach you how, and we’ll also talk abou
 </div>
 
 **Delivered at:** MEGAComm 2021, TCWorld 2021 (virtual)
+
+[Download Presentation](assets/talks/fun-with-bugs/fun-with-bugs.pdf)
 
 </div>
 <div class="cards" markdown>
@@ -229,6 +233,8 @@ No need to get frustrated. Come play the tech writer's troubleshooting game. You
 </div>
 
 **Delivered at:** MEGAComm 2024 (virtual)
+
+[Download Presentation](assets/talks/troubleshooting-game/troubleshooting-game.pdf)
 
 </div>
 <div class="cards" markdown>
@@ -294,5 +300,7 @@ Everyone makes typos, right? It’s part of being a technical writer. We do our 
 </div>
 
 **Delivered at:** tekom meetup, 2019 (in-person)
+
+[Download Presentation](assets/talks/worst-that-can-happen/whats-the-worst-that-can-happen.pdf)
 
 </div>
