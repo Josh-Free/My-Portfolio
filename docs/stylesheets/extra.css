@@ -122,13 +122,13 @@ h1#my-talks {
 }
 
 .md-social__link {
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
 }
 
 .md-social__link svg {
-  width: 64px !important;
-  height: 64px !important;
+  width: 32px !important;
+  height: 32px !important;
   max-height: none !important;
 }
 
@@ -297,4 +297,42 @@ a {
   .md-nav--primary .md-nav__title[for=__drawer] {
     box-shadow: none;
   }
+}
+
+/* About Me: profile photo with social icons underneath */
+.md-typeset .profile {
+  float: right;
+  width: 250px;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.md-typeset .profile p {
+  margin: 0;
+}
+
+.md-typeset .profile img {
+  display: block;
+  border-radius: 10px;
+}
+
+.md-typeset .profile__social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.md-typeset .profile__social a {
+  color: #184E77;
+}
+
+.md-typeset .profile__social a:hover,
+.md-typeset .profile__social a:focus {
+  color: #1A759F;
+}
+
+.md-typeset .profile__social svg {
+  display: block;
+  width: 32px;
+  height: 32px;
 }
