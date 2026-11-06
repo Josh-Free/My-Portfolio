@@ -8,9 +8,9 @@
 
 
 .md-header {
-  background-color: #A9C6DB;
+  background-color: #76C893;
   height: 100px;
-  color: #4A3428;
+  color: #184E77;
 }
 
 .md-header--shadow {
@@ -22,17 +22,17 @@
 }
 
 .md-footer {
-  background-color: #4A3428;
+  background-color: #184E77;
 }
 
 .md-footer__inner {
-  color: #F3EDE2;
+  color: #D9ED92;
 }
 
 .md-footer__link,
 .md-footer__link:hover,
 .md-footer__link:focus {
-  color: #F3EDE2;
+  color: #D9ED92;
 }
 
 .md-typeset p {
@@ -48,15 +48,20 @@
 .md-nav__link,
 .md-nav__link--passed,
 .md-nav__link--passed code {
-  color: #4A3428;
-  font-weight: 700;
+  color: #184E77;
+  font-weight: 400;
+}
+
+/* top-level sections (Home, My Work, My talks): semi-bold */
+.md-nav--primary > .md-nav__list > .md-nav__item:not(.md-nav__item--active) > .md-nav__link {
+  font-weight: 600;
 }
 
 /* active: primary nav item--active, and secondary/TOC link--active */
 .md-nav--primary .md-nav__item--active>.md-nav__link,
 .md-nav__item .md-nav__link--active,
 .md-nav__item .md-nav__link--active code {
-  color: #4E7591;
+  color: #1E6091;
   font-weight: 700;
 }
 
@@ -67,24 +72,24 @@
 .md-nav__link[href]:focus,
 .md-nav--primary .md-nav__item--active>.md-nav__link:hover,
 .md-nav--primary .md-nav__item--active>.md-nav__link:focus {
-  color: #6F8360;
+  color: #1A759F;
 }
 
 
 .md-header__title {
   font-weight: 700;
   font-size: 1.5rem;
-  color: #4A3428;
+  color: #184E77;
 }
 
 .md-source {
-  color: #4A3428;
+  color: #184E77;
 }
 
 .md-search__button,
 .md-search__button::after {
-  background-color: rgba(74, 52, 40, 0.08);
-  color: #4A3428;
+  background-color: rgba(24, 78, 119, 0.08);
+  color: #184E77;
 }
 
 h1#portfolio,
@@ -92,7 +97,7 @@ h1#about-me,
 h1#my-talks {
   font-weight: 600;
   font-size: 2rem;
-  color: #6F8360;
+  color: #1A759F;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
@@ -101,17 +106,17 @@ h1#my-talks {
 }
 
 .md-main {
-  background-color: #F3EDE2;
+  background-color: #D9ED92;
 }
 
 .md-nav--primary .md-nav__title,
 .md-nav--secondary .md-nav__title {
-  background: #F3EDE2;
-  box-shadow: 0 0 .4rem .4rem #F3EDE2;
+  background: #D9ED92;
+  box-shadow: 0 0 .4rem .4rem #D9ED92;
 }
 
 .md-typeset a {
-  color: #4E7591;
+  color: #1E6091;
   text-decoration: none;
   font-weight: 400;
 }
@@ -128,33 +133,33 @@ h1#my-talks {
 }
 
 .md-typeset .disclaimer>.admonition-title:before, .md-typeset .disclaimer>summary:before {
-  background-color: #9DAE8C;
+  background-color: #52B69A;
 }
 
 .md-typeset .admonition.disclaimer, .md-typeset details.disclaimer {
   max-width: 800px; 
-  border: 2px solid #E6D9C3;
-  background-color: #F8F4EC;
-  color: #4A3428;
+  border: 2px solid #99D98C;
+  background-color: #F7FBE9;
+  color: #184E77;
   border-radius: 4px;
-  font-size: small;
+  font-size: 16px;
 }
 
 .admonition.title {
-  color: #4A3428;
-  background-color: #E6D9C3;
+  color: #184E77;
+  background-color: #99D98C;
   
 }
 
 
 .md-typeset .admonition-title, .md-typeset summary  {
-  color: #4A3428;
-  background-color: #E6D9C3;
+  color: #184E77;
+  background-color: #99D98C;
   
 }
 
 a {
-  color: #4E7591;
+  color: #1E6091;
   text-decoration: none;
   font-weight: 400;
 }
@@ -162,7 +167,7 @@ a {
 
 .cards {
   background-color: transparent;
-  border: 2px solid #E6D9C3;
+  border: 2px solid #99D98C;
   border-radius: 10px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -171,21 +176,26 @@ a {
 
 .md-typeset table:not([class])  {
   font-size: 15px;
+  background-color: #F7FBE9;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #F7FBE9;
 }
 
 /* My talks: slide carousel */
 .talk-carousel {
   position: relative;
   margin: 1.5rem 0;
-  border: 2px solid #E6D9C3;
+  border: 2px solid #99D98C;
   border-radius: 10px;
-  background-color: #F8F4EC;
+  background-color: #B5E48C;
   overflow: hidden;
   outline: none;
 }
 
 .talk-carousel:focus-visible {
-  border-color: #4E7591;
+  border-color: #1E6091;
 }
 
 .talk-carousel__track {
@@ -220,8 +230,8 @@ a {
   height: 2.75rem;
   border: none;
   border-radius: 50%;
-  background-color: rgba(74, 52, 40, 0.75);
-  color: #F3EDE2;
+  background-color: rgba(24, 78, 119, 0.75);
+  color: #D9ED92;
   font-size: 2rem;
   line-height: 2.5rem;
   cursor: pointer;
@@ -229,7 +239,7 @@ a {
 
 .talk-carousel__btn:hover,
 .talk-carousel__btn:focus-visible {
-  background-color: #4E7591;
+  background-color: #1E6091;
 }
 
 .talk-carousel__btn:disabled {
@@ -251,8 +261,8 @@ a {
   right: 0.75rem;
   padding: 0.15rem 0.6rem;
   border-radius: 4px;
-  background-color: rgba(74, 52, 40, 0.75);
-  color: #F3EDE2;
+  background-color: rgba(24, 78, 119, 0.75);
+  color: #D9ED92;
   font-size: 0.8rem;
 }
 
@@ -262,5 +272,29 @@ a {
     height: 2rem;
     font-size: 1.5rem;
     line-height: 1.8rem;
+  }
+}
+
+/* theme color variables: replace the built-in indigo (used by the mobile menu and other built-in parts) */
+[data-md-color-primary] {
+  --md-primary-fg-color: #76C893;
+  --md-primary-fg-color--light: #99D98C;
+  --md-primary-fg-color--dark: #52B69A;
+  --md-primary-bg-color: #184E77;
+  --md-primary-bg-color--light: rgba(24, 78, 119, 0.7);
+  --md-accent-fg-color: #1A759F;
+  --md-accent-fg-color--transparent: rgba(26, 117, 159, 0.1);
+}
+
+/* mobile menu (drawer) */
+@media screen and (max-width: 76.2344em) {
+  /* every part of the menu reads this variable, so set it once for the whole menu */
+  .md-sidebar--primary {
+    --md-default-bg-color: #D9ED92;
+    background-color: #D9ED92;
+  }
+
+  .md-nav--primary .md-nav__title[for=__drawer] {
+    box-shadow: none;
   }
 }
