@@ -1,6 +1,78 @@
 site_name: Yehoshua Paul
+site_url: https://yehoshuapaul.github.io/My-Portfolio/
+repo_url: https://github.com/Josh-Free
 theme:
   name: material
+  variant: classic
+  logo: assets/images/favicon.svg
+  favicon: assets/images/favicon.svg
+  icon:
+    admonition: 
+      note: lucide/gavel
+  font:
+    text: Roboto
+    code: Roboto
+  palette:            
+    scheme: default
+  features:
+    - tabs = true
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+
+plugins:
+  - search
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - typset
+  - glightbox:
+      enabled: true
+  - social:
+      cards_layout: default/variant
+  - mkdocs-nav-weight:
+      default_page_weight: 10
+  - llmstxt:
+      sections:
+        Documentation:
+          - index.md
+          - Portfolio.md
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Josh-Free
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yehoshuapaul/
+
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - codehilite
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.critic
+  - pymdownx.tabbed
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - meta
+  - pymdownx.betterem:
+      smart_enable: all
+  - toc:
+      permalink: true
 
 nav:
   - Home: index.md

@@ -6,4 +6,10 @@ icon: lucide/user-round-star
 # About Me
 ![Yehoshua Paul](assets/images/profile-photo.jpg){ align=right width="250" }
 
-Senior technical writer with 18+ years building documentation for B2B SaaS, enterprise software, cybersecurity, and cloud infrastructure platforms. Works in direct partnership with engineering teams and product management to translate complex technical details into clear, customer facing content. Applies AI-assisted tooling to strengthen documentation accuracy and reduce production time. Repeated hands-on experience leading writing teams on short-term projects and covering for leadership as necessary. Active contributor to the technical communication profession through industry conferences, publications, and leadership in tekom Israel.
+I'm Yehoshua Paul, a senior technical writer with almost two decades of experience building documentation for B2B SaaS, enterprise software, cybersecurity, and cloud infrastructure platforms. I work in direct partnership with engineering teams and product management to translate complex technical details into clear, customer facing content. I currently work at Tufin  where I apply AI-assisted tooling to strengthen our documentation accuracy and reduce production time.
+
+I've worked both as a lone writer where I handled the documentation needs of an entire company (including designing the features that needed to be documented), and I've been part of a team working in large enterprise companies. I have managed other writers, and also mentored junior writers just entering the field.
+
+Throughout my career, I've made an effort to be an active contributor to the technical communication profession through industry conferences, publications, and leadership in tekom Israel.
+
+I believe in making things better and in the power of communities. Documentation can always be improved. Also processes, and our fellow writers are the greatest resource we will ever have for accomplishing those goals. 
