@@ -21,7 +21,6 @@ A quick start guide for setting up Tufin T-900 and T-1300 hardware appliances, f
 
 |  |  |
 | --- | --- |
-| **Purpose:**  | Takes a new customer from a boxed appliance to a running TOS installation with remote access, network, and link redundancy configured correctly. |
 | **Technologies covered:**  | Tufin T-Series appliances, TufinOS, Tufin Orchestration Suite (TOS) Aurora, Dell iDRAC, NIC bonding (nmtui), NTP and DNS configuration, SSH, tmux |
 | **Document type:**  | Quick start guide (hardware setup procedure) |
 | **Created on:**  | October 20, 2026 |
@@ -36,11 +35,10 @@ A quick start guide for setting up Tufin T-900 and T-1300 hardware appliances, f
 
 ## Mount the ETCD Database to a Separate Disk
 
-A set of procedures for moving the Kubernetes etcd database onto its own disk, with a separate topic for each deployment environment and scenario.
+A set of procedures for moving the Kubernetes etcd database onto its own disk, giving TOS the dedicated disk resources it needs for performance, stability, and low latency. Required for all clusters.
 
 |  |  |
 | --- | --- |
-| **Purpose:**  | Gives TOS the dedicated disk resources it needs for performance, stability, and low latency. The procedure is required for all clusters. |
 | **Technologies covered:**  | Kubernetes etcd, TufinOS and open servers, AWS, Azure, GCP (in-place, new instance, and high availability scenarios) |
 | **Document type:**  | Procedure set (landing page linking to environment-specific task topics) |
 | **Created on:**  | October 20, 2026 |
@@ -58,11 +56,10 @@ Sample markdown files from this set:
 
 ## Upgrade TufinOS
 
-A set of procedures for upgrading and updating the TufinOS operating system on TOS nodes, with separate topics for upgrading from TufinOS 3 to 4 (in-place and HA deployments on VMware ESXi) and for updating within TufinOS 4.
+A set of procedures intended to help network administrators upgrade and update the TufinOS operating system on TOS nodes. Separate procedures for upgrading from TufinOS 3 to 4 (in-place and HA deployments on VMware ESXi) and for updating within TufinOS 4. 
 
 |  |  |
 | --- | --- |
-| **Purpose:**  | Gives experienced administrators an ordered, verifiable path to a supported OS version, with prerequisites, backups, node-by-node steps, and cluster health checks, while keeping the planned downtime and the central-before-remote-collector upgrade order in view. |
 | **Technologies covered:**  | TufinOS, TOS Aurora, Kubernetes (k3s), VMware ESXi/vSphere, TOS CLI, NTP (chrony), NetworkManager, high availability clusters, remote collectors |
 | **Document type:**  | Procedure set (landing page linking to upgrade procedures) |
 | **Created on:**  | October 20, 2026 |
@@ -79,11 +76,10 @@ Sample markdown files from this set:
 
 ## Remote Collectors
 
-An overview of TOS remote collector clusters, with procedures to connect, list, and disconnect them from a central cluster.
+An overview of TOS remote collector clusters that helps administrators decide when a remote collector is needed. Includes procedures to connect, list, and disconnect remote collectors from a central cluster.
 
 |  |  |
 | --- | --- |
-| **Purpose:**  | Helps administrators decide when a remote collector is needed and set up distributed data collection correctly. |
 | **Technologies covered:**  | TOS, SecureTrack, Kubernetes clusters, TOS CLI (`tos cluster` commands), AWS, Azure, GCP, SSL certificates, JMS and HTTPS connectivity |
 | **Document type:**  | Concept and task topic (overview, procedures, and CLI parameters) |
 | **Created on:**  | October 20, 2026 |
@@ -97,11 +93,10 @@ An overview of TOS remote collector clusters, with procedures to connect, list, 
 
 ## High Availability Architecture
 
-An explanation of how TOS high availability works, covering the three-data-node design, leader election, site requirements, and failover behavior.
+An explanation of how TOS high availability works, covering the three-data-node design, leader election, site requirements, and failover behavior. Helps network administrators understand the architecture and its constraints before enabling high availability, and what to expect when a node fails.
 
 |  |  |
 | --- | --- |
-| **Purpose:**  | Helps readers understand the architecture and its constraints before enabling high availability, and what to expect when a node fails. |
 | **Technologies covered:**  | TOS, Kubernetes cluster nodes, quorum-based leader election, GCP availability zones, remote collectors |
 | **Document type:**  | Concept (architecture overview) |
 | **Created on:**  | October 20, 2026 |
