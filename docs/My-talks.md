@@ -3,7 +3,7 @@ icon: lucide/mic
 ---
 
 
-# My talks
+# My Talks
 
 
 <div class="cards" markdown>

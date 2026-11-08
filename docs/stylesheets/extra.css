@@ -336,3 +336,43 @@ a {
   width: 32px;
   height: 32px;
 }
+
+/* About Me on mobile: photo above the text instead of beside it */
+@media screen and (max-width: 600px) {
+  .md-typeset .profile {
+    float: none;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+/* My Work page on mobile: show each table as a bulleted list */
+@media screen and (max-width: 600px) {
+  .md-content__inner:has(h1#portfolio) table:not([class]) {
+    display: block;
+    border: none;
+    background: none;
+    font-size: inherit;
+  }
+
+  .md-content__inner:has(h1#portfolio) table:not([class]) thead {
+    display: none;
+  }
+
+  .md-content__inner:has(h1#portfolio) table:not([class]) tbody {
+    display: block;
+    padding-left: 1.25rem;
+  }
+
+  .md-content__inner:has(h1#portfolio) table:not([class]) tr {
+    display: list-item;
+    list-style: disc;
+    background: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .md-content__inner:has(h1#portfolio) table:not([class]) td {
+    display: inline;
+    padding: 0;
+    border: none;
+  }
+}

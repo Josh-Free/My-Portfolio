@@ -77,6 +77,6 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Home: index.md
+  - About Me: index.md
   - My Work: Portfolio.md
-  - My talks: My-talks.md
+  - My Talks: My-talks.md
